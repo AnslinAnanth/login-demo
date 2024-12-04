@@ -1,0 +1,23 @@
+.mainNotesComponent{
+    height: 200px;
+    background-color: rgb(132, 225, 244);
+    border-radius: 5px;
+}
+.subNotesComponent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.notesComponentHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+.content{
+    margin-top: -30px;
+}
+.dcIcon{
+    font-size: 30px;
+    cursor: pointer;
+}

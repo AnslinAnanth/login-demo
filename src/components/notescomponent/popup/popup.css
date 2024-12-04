@@ -1,0 +1,92 @@
+.mainPop {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    
+    
+    border-radius: 15px;
+}
+
+.popNote{
+    margin: 3px;
+    color: grey;
+    align-self: center;
+}
+
+.popIcon {
+    font-size: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    align-self: center;
+    margin-top: 10px;
+    
+}
+
+.inp{
+    width: 75%;
+    height: 15px;
+    padding: 15px;
+    align-self: center;
+    background-color:  rgb(132, 225, 244);
+    border: none;
+    border-radius: 10px;
+    outline:none;
+
+}
+
+textarea {
+    width: 77%;
+    height: 270px;
+    align-self: center;
+    background-color:  rgb(132, 225, 244);
+    border: none;
+    border-radius: 10px;  
+    outline: none;
+    padding: 7px;
+}
+.popInp{
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c1bdbd6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.addbn{
+    background-color: gray;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+}
+.cancelbn{
+    background-color:gray;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+}

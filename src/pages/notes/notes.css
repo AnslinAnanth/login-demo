@@ -1,0 +1,68 @@
+.mainNotesContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.notesInput {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 90%;
+    height: 40px;
+    align-self: center;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.textInput {
+    border: none;
+    align-self: center;
+    outline: none;
+    width: 70%;
+}
+.searchIcon {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    color: rgb(12, 11, 12);
+    margin-left: 10px;
+    font-size: 20px;
+}
+.notesList {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 90%;
+    align-self: center;
+}
+.addButton {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.notButton {
+    position: fixed; /* Keeps it in the same position even when scrolling */
+    bottom: 20px;    /* Distance from the bottom */
+    right: 20px;     /* Distance from the right */
+    z-index: 1000;   /* Ensures it stays above other elements */
+  }
+.popUp{
+     position: absolute;
+    
+}
