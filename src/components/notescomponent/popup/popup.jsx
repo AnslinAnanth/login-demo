@@ -5,7 +5,7 @@ import { MdCancel } from "react-icons/md";
 
 function Popup(props) {
     const { cancelButtonClicked, doneClicked, notesTitle, setNotesTitle, notesContent, setNotesContent,updateClicked } = props
-    const [isNew, setIsNew] = useState(notesTitle === '' ?? true)
+    const [isNew, setIsNew] = useState(notesTitle === '' ?? true)//sample change
     return (
         <div className='mainContainer'>
             <div className='mainPop'>
