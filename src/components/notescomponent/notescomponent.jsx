@@ -9,7 +9,7 @@ function Notescomponent(props) {
   const{notesItem,notesIndex,deleteClicked,editClicked}=props
   
   function dClicked(){
-    deleteClicked(notesIndex)
+    deleteClicked(notesItem.id)
   }
   function eClicked(){
     editClicked(notesIndex)
@@ -18,14 +18,14 @@ function Notescomponent(props) {
     <div className='mainNotesComponent'>
       <div className='subNotesComponent'>
         <div className='notesComponentHeader'>
-          <h2>{notesItem.notesTitle}</h2>
+          <h2>{notesItem.title}</h2>
           <div className='dcIcon'>
           <FaRegEdit onClick={eClicked}/>
           <MdDelete onClick={dClicked} />
           </div>
         </div>
         <div className='content'>
-          <p>{notesItem.notesContent}</p>
+          <p className='notesContent'>{notesItem.note}</p>
         </div>
       </div>
     </div>

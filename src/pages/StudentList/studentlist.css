@@ -1,0 +1,34 @@
+.mainSt{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;   
+}
+.studentInfo{
+    width:200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    column-gap: -10px;
+    border-radius: 10px;
+}
+.name{
+    font-weight: bold;
+    margin-top:  -10px;
+    
+}
+.mail{
+    margin-top: -10px;
+}
+img{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

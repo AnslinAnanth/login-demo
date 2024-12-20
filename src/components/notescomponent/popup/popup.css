@@ -5,8 +5,6 @@
     width: 50%;
     height: 500px;
     position: absolute;
-    
-    
     border-radius: 15px;
 }
 
@@ -77,6 +75,7 @@ textarea {
     width: 80px;
     height: 30px;
     border-radius: 15px;
+    cursor: pointer;
 }
 .cancelbn{
     background-color:gray;
@@ -89,4 +88,5 @@ textarea {
     width: 80px;
     height: 30px;
     border-radius: 15px;
+    cursor: pointer;
 }
